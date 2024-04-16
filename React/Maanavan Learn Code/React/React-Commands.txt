@@ -1,0 +1,21 @@
+                  // Command Used in React //
+
+PS D:\Maanavan Learn Code> cd React
+
+PS D:\Maanavan Learn Code\React> npx create-react-app
+
+PS D:\Maanavan Learn Code\React> cd mern-crud
+
+PS D:\Maanavan Learn Code\React\mern-crud> npm install body-parser
+
+PS D:\Maanavan Learn Code\React\mern-crud>  npm install cors
+
+PS D:\Maanavan Learn Code\React\mern-crud>  npm install express
+
+PS D:\Maanavan Learn Code\React\mern-crud> npm install mongoose
+
+PS D:\Maanavan Learn Code\React\mern-crud> npm install bootstrap@5.3.3
+
+PS D:\Maanavan Learn Code\React\mern-crud> npm install react-router-dom
+
+PS D:\Maanavan Learn Code\React\mern-crud> npm install react-bootstrap bootstrap

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is used for search purpose">
+    <meta name="keywords" content="useful-for-keyword">
+    <!-- <meta name="robots" content="NOINDEX,NOFOLLOW"> -->
+    <meta name="robots" content="INDEX,FOLLOW">
+    <link rel="icon" href=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png"
+          type="image/x-icon">
+    <style>
+        input[type=email]{
+            background-color: orange;
+        }
+        p.dotted {border-style: dotted;}
+        p.dashed {border-style: dashed;}
+        p.solid 
+        {
+            border: 2px solid red;
+            border-radius: 5px;
+        }
+        p.double {border-style: double;}
+        p.groove {border-style: groove;}
+        p.ridge {border-style: ridge;}
+        p.inset {border-style: inset;}
+        p.outset {border-style: outset;}
+        p.none {border-style: none;}
+        p.hidden {border-style: hidden;}
+        p.mix {border-style: dotted dashed solid double;}
+
+        #margin-style-prop 
+        {
+            width: 300px;
+            margin: auto;
+            border: 1px solid red;
+        }
+    </style>
+    <title>Combination</title>
+</head>
+<body>
+    <div class="web-page">
+        <h1>MY APPLICATION</h1>
+        <div class="main-nav">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </div>
+        <div class="main-header">
+            <h2>My Website</h2>
+            <h2>My Apps</h2>
+        </div>
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatum quo eligendi natus aperiam quisquam
+                iure odit reiciendis repellat rem amet consequatur consectetur, officiis placeat.</p>
+        </div>
+        <div class="main-footer">
+            <p>&copy;Uthra</p>
+        </div>
+    </div>
+    <hr>
+    <div class="input-css">
+        <h2>1. The Input Tag</h2>
+        <ul>
+            <li>Address: Hyderabad</li>
+            <li>Email: abc@gmail.com</li>
+            <label for="email"></label>
+            <input type="email" name="email" id="email">
+        </ul>
+    </div> 
+    <hr>
+    <div>
+        <h2>2. The border-style Property</h2>
+        <p>This property specifies what kind of border to display:</p>
+    
+        <p class="dotted">A dotted border.</p>
+        <p class="dashed">A dashed border.</p>
+        <p class="solid">A solid Rounded border.</p>
+        <p class="double">A double border.</p>
+        <p class="groove">A groove border.</p>
+        <p class="ridge">A ridge border.</p>
+        <p class="inset">An inset border.</p>
+        <p class="outset">An outset border.</p>
+        <p class="none">No border.</p>
+        <p class="hidden">A hidden border.</p>
+        <p class="mix">A mixed border.</p>
+    </div>
+    <hr>
+    <h2>2. The margin-style Property "AUTO"</h2>
+    <div id="margin-style-prop">
+        This div will be horizontally centered because it has margin: auto;
+    </div>
+</body>
+</html>

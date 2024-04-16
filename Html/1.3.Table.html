@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+             border-collapse: collapse; /* it is change border to single line */
+        }
+        th,
+        td {
+            padding: 20px;
+            border-style: dotted;
+        }
+        th {
+            text-align: left;
+        }
+        tr:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+        }
+
+        th:nth-child(even),td:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+        }
+    </style>
+    <title>Document</title> 
+</head>
+<body>
+    <div>
+        <div class="Table-element">
+            <h2 style="border: 2px solid skyblue;">9. Table Element</h2>
+            <h4>Table 1</h4> 
+            <table style="width:40%;"> 
+                <caption>DETAILS</caption>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Priya</td>
+                    <td>Sharma</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>Arun</td>
+                    <td>Singh</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Sam</td>
+                    <td>Watson</td>
+                    <td>41</td>
+                </tr>
+            </table>
+            <hr>
+            <h4>Table 2</h4>
+            <table style="width:40%;">
+                <tr>
+                    <th>Firstname</th>
+                    <td>Priya</td>
+                </tr>
+                <tr>
+                    <th>Lastname</th>
+                    <td>Sharma</td>
+                </tr>
+            </table>
+            <hr>
+            <h4>Table 3</h4>
+            <table style="width:40%;">
+                <tr>
+                    <th rowspan="2">Fullname</th>
+                    <th>Firstname</th>
+                    <td>Priya</td>
+                </tr>
+                <tr> 
+                    <th>Lastname</th>
+                    <td>Sharma</td>
+                </tr>
+            </table>
+            <hr>
+            <h4>Table 4</h4>
+            <table style="width:40%;" >
+                <tr>
+                    <th colspan="2" style="text-align: center;">Fullname</th> 
+                </tr>
+                <tr>
+                    <td>Priya</td>
+                    <td>Sharma</td>
+                </tr>
+            </table>
+            <hr>
+            <h4>Table 5</h4>
+            <table> 
+                <colgroup>
+                  <col span="2" style="background-color:red">
+                  <col style="background-color:yellow">
+                </colgroup>
+                <tr>
+                  <th>ISBN</th>
+                  <th>Title</th>
+                  <th>Price</th>
+                </tr>
+                <tr>
+                  <td>3476896</td>
+                  <td>My first HTML</td>
+                  <td>$53</td>
+                </tr>
+                <tr>
+                  <td>5869207</td>
+                  <td>My first CSS</td>
+                  <td>$49</td>
+                </tr>
+              </table>
+              <hr>
+              <h4>An HTML table with a thead, tbody, and a tfoot element:</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                  </tr>
+                  <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>Sum</td>
+                    <td>$180</td>
+                  </tr>
+                </tfoot>
+              </table>
+        </div>
+    </div>
+</body>
+</html>

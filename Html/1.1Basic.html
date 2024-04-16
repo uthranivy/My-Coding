@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is used for search purpose">
+    <meta name="keywords" content="useful-for-keyword">
+    <!-- <meta name="robots" content="NOINDEX,NOFOLLOW"> -->
+    <meta name="robots" content="INDEX,FOLLOW">
+    <link rel="icon" href=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png"
+          type="image/x-icon">
+          <style> 
+
+            .horizontal-ul {
+                overflow: hidden;
+                background-color: #1d6b0d;
+                list-style-type: none;
+            }
+
+            .horizontal-li {
+                float: left;
+            }
+
+            .horizontal-li a {
+                text-decoration: none;
+                color: white;
+                padding: 0.5rem;
+            }
+
+            /* Entities */
+            table, th, td {
+            border: 1px solid black;
+             border-collapse: collapse; /* it is change border to single line */
+            }
+            th,
+            td {
+                padding: 20px;
+                border-style: dotted;
+            }
+            th {
+                text-align: left;
+            }
+            tr:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+            }
+
+            th:nth-child(even),td:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+            }
+        </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="background-color: gray;">HTML - HyperText Markup Language</h1>
+    <div class="heading-element">
+        <h2 style="border: 2px solid skyblue;">1. Heading Element</h2>
+        <h1>Heading 1 (h1)</h1>
+        <h2>Heading 2 (h2)</h2>
+        <h3>Heading 3 (h3)</h3>
+        <h4>Heading 4 (h4)</h4>
+        <h5>Heading 5 (h4)</h5>
+        <h6>Heading 6 (h6)</h6>
+    </div>
+    <hr>
+    <div class="para-element">
+        <h2 style="border: 2px solid skyblue;">2. Paragraph Element</h2>
+        <p> HTML stands for HyperText Markup Language.<br>
+            It is used to design web pages using a markup
+            language.<br>HTML is a combination of Hypertext
+            and Markup language.<br>Hypertext defines the
+            link between web pages.<br>A markup language
+            is used to define the text document within the
+            tag which defines the structure of web pages.</p>
+    </div>
+    <div class="img-element">
+        <h2 style="border: 2px solid skyblue;">3. Image Element</h2>
+        <img src="img/demo-1.jpg" alt="Long-Road" width="128" height="128" style="border: 5px solid firebrick;">
+        <h3>1. HTML ismap Attribute</h2>
+        <img src="img/demo-1.jpg" alt="Long-Road" width="128" height="128" style="border: 5px solid firebrick;" ismap>
+    </div>
+    <hr>
+    <div class="single-line-element">
+        <!--This is single line comment-->
+        <h2 style="border: 2px solid skyblue;">4. This is <!--given for--> single line comment</h2>
+    </div>
+    <hr>
+    <div class="multiline-element">
+        <h2 style="border: 2px solid skyblue;">5. This is multi-line comment</h2>
+        <!-- <button style="font-family: Sans-serif;"> 
+           Click Me 
+         </button> -->
+    </div>
+    <hr>
+    <div class="img-element">
+        <h2 style="border: 2px solid skyblue;">6. HTML Text Formatting</h2>
+        <p style="color: #ff6347;">
+            <!--Text in Strong-->
+            <strong>Text in Strong</strong>
+            <br>
+
+            <!--Text in small-->
+            <small>Text in small</small>
+            <br>
+
+            <!--Text in Highlight-->
+            <mark>Text in Highlight</mark>
+            <br>
+            <!--Text in Bold--> 
+            <b>Text in Bold</b>
+            <br>
+              <!--Text in Italics-->
+            <i>Text in Italics</i>
+            <br>
+            <!--Text in Emphasize--> 
+            <em>Text in Emphasize</em>
+            <br>
+            <!--Text in Superscript--> 
+            <sup>Text in Superscript</sup>
+            <br>
+            <!--Text in Delete-->
+            <del>Text in Delete</del> 
+            <br>
+            <!--Text in Insert--> 
+            <ins>Text in Insert</ins>
+        </p>
+    </div>
+    <hr>
+    <div class="img-element">
+        <h2 style="border: 2px solid skyblue;">7. HTML Quotation Element</h2>
+        <!-- Inside blockquotes -->
+        <blockquote>
+            <p style="color: #ff6347;">1. The quick brown fox jumps
+                over the lazy dog
+            </p>
+        </blockquote>
+    
+        <!-- Inside quotes -->
+        <q style="color: #cf7caa;">2. The quick brown fox jumps over the lazy dog</q>
+    
+        <!-- Cite with title -->
+        <p style="color: #1e1f70;">
+           3.  The <cite style="color: #b4137f;">GeeksforGeeks</cite>
+            is the best site to<br>
+            search for articles and practice problems.
+        </p>
+
+        <!--Inside <bdo> tag Defines text direction, left-to-right or right-to-left.-->
+            <p style="color: #7c3d32;">
+                <h4>4. Defines text direction, left-to-right or right-to-left.</h4>
+                <bdo dir="rtl">Defines text direction, left-to-right or right-to-left.</bdo
+                >
+            </p>
+     
+            <p style="color: #aac93d;">
+               5.  Defines abbreviation or acronym.
+                <abbr title="GeeksforGeeks">GfG</abbr>
+            </p>
+     
+            <address>
+                <p style="color: #ca0707;">
+                   6. Address:<br />
+                     3-B, RSP Park,<br />
+                    S-142, Hyderabad 500014
+                </p>
+            </address>
+    </div>
+    <hr>
+    <div class="img-element">
+        <h2 style="border: 2px solid skyblue;">8. Link Element</h2>
+        <p style="color: #142964;">
+            If you set the target attribute to
+            "_blank", the link will open in a new
+            browser window or tab.
+        </p>
+        <a
+            href="https://www.geeksforgeeks.org"
+            target="_blank" style="color: #ca0721;"
+        >
+            GeeksforGeeks
+        </a>
+    </div> 
+    <hr>
+    <div class="Table-element">
+        <h2 style="border: 2px solid skyblue;">9. Table Element</h2>
+        <a href="Table.html">Click Here</a>
+    </div> 
+    <hr>
+    <div class="img-element">
+        <h2 style="border: 2px solid skyblue;">10. List Element</h2>
+        <h4>1. Unordered List</h4>
+        <ul>
+            <li>Data Structures & Algorithm</li>
+            <li>Web Technology</li>
+            <li>Aptitude & Logical Reasoning</li>
+            <li>Programming Languages</li>
+        </ul>
+        <h4>2. Ordered List</h4>
+        <ol>
+            <li>Array</li>
+            <li>Linked List</li>
+            <li>Stacks</li>
+            <li>Queues</li>
+            <li>Trees</li>
+            <li>Graphs</li>
+        </ol>
+        <h3>1. HTML Ordered List tag</h3> 
+        <h4>1. Reversed attribute</h4>  
+        <ol reversed>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ol> 
+        <h4>2. Start attribute</h4> 
+        <ol start="5">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ol> 
+        <h4>3. Type attribute</h4> 
+        <ol type="i">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ol>
+        <h3>2. HTML Unordered List tag</h3> 
+        <h4>1. Circle type Unordered List</h4>
+        <ul style="list-style-type:circle;">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+        </ul>
+        <h4>2. None type unordered list</h4> 
+        <ul style="list-style-type:none;">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+        </ul>
+        <h3>3. HTML Horizontal Unordered List</h3>
+
+        <ul class="horizontal-ul">
+            <li class="horizontal-li"><a href="#course">Course</a></li>
+            <li class="horizontal-li"><a href="#Blog">Blogs</a></li>
+            <li class="horizontal-li"> 
+                <a href="#Content">Content</a>
+            </li>
+        </ul>
+    </div> 
+    <hr>
+    <div class="img-element">
+        <h2 style="border: 2px solid skyblue;">11. Description Element</h2>
+        <h3>HTML Description Lists</h3> 
+        <dl>
+            <dt>GeeksforGeeks</dt>
+            <dd>
+                A Computer Science Portal For
+                Geeks
+            </dd>
+            <dd>
+                <dl>
+                    <dt>Courses</dt>
+                    <dd>Programming</dd>
+                    <dd>Web Tech</dd>
+                    <dd>Reasoning</dd>
+                    <dd>DSA</dd>
+                </dl>
+            </dd>
+        </dl>
+    </div> 
+    <hr>
+    <div class="img-element">
+        <h2 style="border: 2px solid skyblue;">12. HTML iframe Tag</h2> 
+        <iframe src="https://picsum.photos/200/300" height="200" width="400">
+        </iframe>
+    </div> 
+    <div class="img-element">
+        <h2 style="border: 2px solid skyblue;">13. Program Code Tag</h2>  
+        <pre>
+            <code> 
+                class GFG  
+                {  
+                    // Program begins with a call to main() 
+                    // Print "Hello, World" to the terminal window  
+                    public static void main(String args[])  
+                    {  
+                        System.out.println("Hello, World");  
+                    }  
+                }  
+            </code> 
+        </pre>
+        <h3>All in One Line</h3>
+        <kbd>A computer</kbd>
+        <kbd>science</kbd>
+        <kbd>portal</kbd>
+
+        <div class="geeks">&lt;var&gt; Tag</div>
+        <var>4x2 + 3x – 7 = 0</var>
+    </div> 
+    <div class="img-element">
+        <h2 style="border: 2px solid skyblue;">14. HTML Entities</h2>   
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 175px">
+                        <h4><span>Notation</span></h4>
+                    </th>
+                    <th style="width: 175px">
+                        <h4><span>Symbols</span></h4>
+                    </th>
+                    <th style="width: 175px">
+                        <h4><span>Entity name</span></h4>
+                    </th>
+                    <th style="width: 175px">
+                        <h4><span>Entity Number</span></h4>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 175px"><span>&nbsp;</span></td>
+                    <td style="width: 175px"><span>non-breaking space</span></td>
+                    <td style="width: 175px"><span>&amp;nbsp;</span></td>
+                    <td style="width: 175px"><span>&nbsp;</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>&lt;</span></td>
+                    <td style="width: 175px"><span>less than</span></td>
+                    <td style="width: 175px"><span>&amp;lt;</span></td>
+                    <td style="width: 175px"><span>&lt;</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>®</span></td>
+                    <td style="width: 175px"><span>registered trademark</span></td>
+                    <td style="width: 175px"><span>&amp;reg;</span></td>
+                    <td style="width: 175px"><span>®</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>©</span></td>
+                    <td style="width: 175px"><span>copyright</span></td>
+                    <td style="width: 175px"><span>&amp;copy;</span></td>
+                    <td style="width: 175px"><span>©</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>€</span></td>
+                    <td style="width: 175px"><span>euro</span></td>
+                    <td style="width: 175px"><span>&amp;euro;</span></td>
+                    <td style="width: 175px"><span>€</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>¥</span></td>
+                    <td style="width: 175px"><span>yen</span></td>
+                    <td style="width: 175px"><span>&amp;yen;</span></td>
+                    <td style="width: 175px"><span>¥</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>£</span></td>
+                    <td style="width: 175px"><span>pound</span></td>
+                    <td style="width: 175px"><span>&amp;pound;</span></td>
+                    <td style="width: 175px"><span>£</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>¢</span></td>
+                    <td style="width: 175px"><span>cent</span></td>
+                    <td style="width: 175px"><span>&amp;cent;</span></td>
+                    <td style="width: 175px"><span>¢</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>“</span></td>
+                    <td style="width: 175px"><span>double quotation mark</span></td>
+                    <td style="width: 175px"><span>&amp;quot;</span></td>
+                    <td style="width: 175px"><span>“</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>&amp;</span></td>
+                    <td style="width: 175px"><span>ampersand</span></td>
+                    <td style="width: 175px"><span>&amp;amp;</span></td>
+                    <td style="width: 175px"><span>&amp;</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>&gt;</span></td>
+                    <td style="width: 175px"><span>greater than</span></td>
+                    <td style="width: 175px"><span>&amp;gt;</span></td>
+                    <td style="width: 175px"><span>&gt;</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∂</span></td>
+                    <td style="width: 175px"><span>PARTIAL DIFFERENTIAL</span></td>
+                    <td style="width: 175px"><span>&amp;part;</span></td>
+                    <td style="width: 175px"><span>∂</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∃</span></td>
+                    <td style="width: 175px"><span>THERE EXISTS</span></td>
+                    <td style="width: 175px"><span>&amp;exist;</span></td>
+                    <td style="width: 175px"><span>∃</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∅</span></td>
+                    <td style="width: 175px"><span>EMPTY SETS</span></td>
+                    <td style="width: 175px"><span>&amp;empty;</span></td>
+                    <td style="width: 175px"><span>∅</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∇</span></td>
+                    <td style="width: 175px"><span>NABLA</span></td>
+                    <td style="width: 175px"><span>&amp;nabla;</span></td>
+                    <td style="width: 175px"><span>∇</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∈</span></td>
+                    <td style="width: 175px"><span>ELEMENT OF</span></td>
+                    <td style="width: 175px"><span>&amp;isin;</span></td>
+                    <td style="width: 175px"><span>∈</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∉</span></td>
+                    <td style="width: 175px"><span>NOT AN ELEMENT OF</span></td>
+                    <td style="width: 175px"><span>&amp;notin;</span></td>
+                    <td style="width: 175px"><span>∉</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>+</span></td>
+                    <td style="width: 175px"><span>PLUS SIGN</span></td>
+                    <td style="width: 175px"><span>&amp;plus;</span></td>
+                    <td style="width: 175px"><span>+</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∏</span></td>
+                    <td style="width: 175px"><span>N-ARY PRODUCT</span></td>
+                    <td style="width: 175px"><span>&amp;prod;</span></td>
+                    <td style="width: 175px"><span>∏</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∑</span></td>
+                    <td style="width: 175px"><span>N-ARY SUMMATION</span></td>
+                    <td style="width: 175px"><span>&amp;sum;</span></td>
+                    <td style="width: 175px"><span>∑</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>Α</span></td>
+                    <td style="width: 175px"><span>Alpha</span></td>
+                    <td style="width: 175px"><span>&amp;Alpha;</span></td>
+                    <td style="width: 175px"><span>Α</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>Β</span></td>
+                    <td style="width: 175px"><span>Beta</span></td>
+                    <td style="width: 175px"><span>&amp;Beta;</span></td>
+                    <td style="width: 175px"><span>Β</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>Γ</span></td>
+                    <td style="width: 175px"><span>Gamma</span></td>
+                    <td style="width: 175px"><span>&amp;Gamma;</span></td>
+                    <td style="width: 175px"><span>Γ</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>Δ</span></td>
+                    <td style="width: 175px"><span>delta</span></td>
+                    <td style="width: 175px"><span>&amp;Delta;</span></td>
+                    <td style="width: 175px"><span>Δ</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>Ε</span></td>
+                    <td style="width: 175px"><span>Epsilon</span></td>
+                    <td style="width: 175px"><span>&amp;Epsilon;</span></td>
+                    <td style="width: 175px"><span>Ε</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>Ζ</span></td>
+                    <td style="width: 175px"><span>Zeta</span></td>
+                    <td style="width: 175px"><span>&amp;Zeta;</span></td>
+                    <td style="width: 175px"><span>Ζ</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>♥</span></td>
+                    <td style="width: 175px"><span>BLACK HEART SUIT = valentine</span></td>
+                    <td style="width: 175px"><span>&amp;hearts;</span></td>
+                    <td style="width: 175px"><span>♥</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>♣</span></td>
+                    <td style="width: 175px"><span>BLACK CLUB SUIT = shamrock</span></td>
+                    <td style="width: 175px"><span>&amp;clubs;</span></td>
+                    <td style="width: 175px"><span>♣</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>♠</span></td>
+                    <td style="width: 175px"><span>BLACK SPADE SUIT</span></td>
+                    <td style="width: 175px"><span>&amp;spades;</span></td>
+                    <td style="width: 175px"><span>♠</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>↓</span></td>
+                    <td style="width: 175px"><span>DOWNWARDS ARROW</span></td>
+                    <td style="width: 175px"><span>&amp;darr;</span></td>
+                    <td style="width: 175px"><span>↓</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>→</span></td>
+                    <td style="width: 175px"><span>RIGHTWARDS ARROW</span></td>
+                    <td style="width: 175px"><span>&amp;rarr;</span></td>
+                    <td style="width: 175px"><span>→</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>↑</span></td>
+                    <td style="width: 175px"><span>UPWARDS ARROW</span></td>
+                    <td style="width: 175px"><span>&amp;uarr;</span></td>
+                    <td style="width: 175px"><span>↑</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>←</span></td>
+                    <td style="width: 175px"><span>LEFTWARDS ARROW</span></td>
+                    <td style="width: 175px"><span>&amp;larr;</span></td>
+                    <td style="width: 175px"><span>←</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>™</span></td>
+                    <td style="width: 175px"><span>TRADEMARK</span></td>
+                    <td style="width: 175px"><span>&amp;trade;</span></td>
+                    <td style="width: 175px"><span>™</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>♦</span></td>
+                    <td style="width: 175px"><span>BLACK DIAMOND SUIT</span></td>
+                    <td style="width: 175px"><span>♦</span></td>
+                    <td style="width: 175px"><span>♦</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>°</span></td>
+                    <td style="width: 175px"><span>degree</span></td>
+                    <td style="width: 175px"><span>&amp;deg;</span></td>
+                    <td style="width: 175px"><span>°</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∞</span></td>
+                    <td style="width: 175px"><span>infinity</span></td>
+                    <td style="width: 175px"><span>&amp;infin;</span></td>
+                    <td style="width: 175px"><span>∞</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>‰</span></td>
+                    <td style="width: 175px"><span>per-mille</span></td>
+                    <td style="width: 175px"><span>&amp;permil;</span></td>
+                    <td style="width: 175px"><span>‰</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>⋅</span></td>
+                    <td style="width: 175px"><span>dot operator</span></td>
+                    <td style="width: 175px"><span>&amp;sdot;</span></td>
+                    <td style="width: 175px"><span>⋅</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>±</span></td>
+                    <td style="width: 175px"><span>plus-minus</span></td>
+                    <td style="width: 175px"><span>&amp;plusmn;</span></td>
+                    <td style="width: 175px"><span>±</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>†</span></td>
+                    <td style="width: 175px"><span>hermitian</span></td>
+                    <td style="width: 175px"><span>&amp;hercon;</span></td>
+                    <td style="width: 175px"><span>⊹</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>–</span></td>
+                    <td style="width: 175px"><span>minus sign</span></td>
+                    <td style="width: 175px"><span>&amp;minus;</span></td>
+                    <td style="width: 175px"><span>−</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>¬</span></td>
+                    <td style="width: 175px"><span>–</span></td>
+                    <td style="width: 175px"><span>&amp;not;</span></td>
+                    <td style="width: 175px"><span>¬</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>%</span></td>
+                    <td style="width: 175px"><span>percent sign</span></td>
+                    <td style="width: 175px"><span>&amp;percent;</span></td>
+                    <td style="width: 175px"><span>%</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>f</span></td>
+                    <td style="width: 175px"><span>Function</span></td>
+                    <td style="width: 175px"><span>&amp;fnof;</span></td>
+                    <td style="width: 175px"><span>ƒ</span></td>
+                </tr>
+                <tr>
+                    <td style="width: 175px"><span>∥</span></td>
+                    <td style="width: 175px"><span>parallel</span></td>
+                    <td style="width: 175px"><span>&amp;parallel;</span></td>
+                    <td style="width: 175px"><span>∥</span></td>
+                </tr>
+            </tbody>
+        </table>
+        </iframe>
+    </div>
+    <hr>
+    <div>
+        <h2>15. HTML Emojis Example</h2>
+        <p>  &#128512; &#142964; &#128350;</p> 
+        <p>
+            😄 This is a smiling face with open mouth 
+                      and smiling eyes emoji
+         </p>
+    </div>
+</body>
+
+</html>

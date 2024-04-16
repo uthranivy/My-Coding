@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is used for search purpose">
+    <meta name="keywords" content="useful-for-keyword">
+    <!-- <meta name="robots" content="NOINDEX,NOFOLLOW"> -->
+    <meta name="robots" content="INDEX,FOLLOW">
+    <link rel="icon" href=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png"
+          type="image/x-icon">
+          <style>
+            *{
+                margin: 20px;
+            }
+          </style>
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <form action="access.html" method="post">
+            <div>
+                <label for="name">Username</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" value="admin" required>
+            </div>
+            <div>
+                <label for="email">Email Id</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" value="admin@abc.com" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password id="password  value="admin" required>
+            </div>
+            <div> 
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="10" max="30">
+            </div>
+            <div> 
+                <label for="dateofbirth">DOB</label>
+                <input type="date" name="dateofbirth" id="date">
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="membership">Membership</label>
+                <input type="radio" name="membership" id="basic" value="basic">Basic
+                <input type="radio" name="membership" id="pro" value="pro">Pro
+                <input type="radio" name="membership" id="premium" value="premium">Premium
+            </div>
+            <div>
+                <label for="tech">Technology</label>
+                <input type="checkbox" name="tech" id="cloud" value="cloud">Cloud
+                <input type="checkbox" name="tech" id="fsd" value="fsd">Full Stack
+                <input type="checkbox" name="tech" id="python" value="python">Python
+            </div>
+            <div>
+                <label for="rate">Rating</label>
+                <input type="range" name="rate" id="rate" value="rate">  
+            </div>
+            <div>
+                <label for="img">Rating</label>
+                 <input type="file" name="img" id="img">
+            </div>
+            <div>
+                <input type="submit" value="submit">
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

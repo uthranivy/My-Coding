@@ -1,0 +1,58 @@
+Creating Website Important things
+
+1. <!DOCTYPE HTML>     =   It is used prepare for website access only HTML5
+
+2. meta uses like UTF, Viewport, description for search engine, robots .,etc. (SEO optimization)
+
+3. Quality image optimization (do speed test for website) (google keyword tool for image name(alt))
+
+4. Give lot of link in site
+
+5. Table is static and Grid is dynamic and edit easily(tools: sencha extjs)
+
+6. Here are the block-level elements in HTML:
+
+A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+
+A block-level element always takes up the full width available
+
+<address> <article> <aside> <blockquote> <canvas> <dd>
+<div>  <dl>  <dt>  <fieldset>  <figcaption>  <figure>  
+<footer>  <form>  <h1>  <h6>  <header>  <hr>  <li>
+<main>  <nav>  <noscript>  <ol>  <p>  <pre>  
+<section>  <table>  <tfoot>  <ul>  <video>
+
+7. Here are the inline elements in HTML:
+
+An inline element does not start on a new line.
+
+An inline element only takes up as much width as necessary.
+
+Example: 
+"<a> <abbr> <acronym> <b>  <bdo>  <big>  <br>  
+<button>  <cite>  <code>  <dfn>  <em>  <i>  <img>  <input>
+<kbd>  <label>  <map>  <object>  <output>  <q>  <samp>  <script>
+<select>  <small>  <span>  <strong>  <sub>  <sup>  <textarea>  <time>  <tt>  <var>"
+
+                    8. Margin - Shorthand Property 
+
+1. If the margin property has four values:
+
+** margin: 25px 50px 75px 100px; **
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px
+
+2.If the margin property has three values:
+
+** margin: 25px 50px 75px; **
+top margin is 25px
+right and left margins are 50px
+bottom margin is 75px
+
+3. If the margin property has two values:
+
+** margin: 25px 50px; **
+top and bottom margins are 25px
+right and left margins are 50px
