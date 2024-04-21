@@ -56,3 +56,14 @@ bottom margin is 75px
 ** margin: 25px 50px; **
 top and bottom margins are 25px
 right and left margins are 50px
+
+                    9. Background
+
+In these chapters, you will learn about the following CSS background properties:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background (shorthand property)

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is used for search purpose">
+    <meta name="keywords" content="useful-for-keyword">
+    <!-- <meta name="robots" content="NOINDEX,NOFOLLOW"> -->
+    <meta name="robots" content="INDEX,FOLLOW"> 
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+         p{  
+            font-size: 2em;
+         } 
+         h2{
+            text-align: center;
+         } 
+         .css-box{
+            background-color: rgb(119, 207, 141); 
+            color: black;  
+            border: 3px solid brown;
+            padding: 5px;
+            margin: 5px;
+         }
+         .without-border{
+            background-color: rgb(119, 207, 141); 
+            color: black; 
+            padding: 5px;
+            margin: 5px;
+         }
+         .css-block{
+            background-color: rgb(119, 207, 141); 
+            color: black;  
+            border-block: 5px solid red;
+            padding: 5px;
+            margin: 5px;
+         }
+         .css-block-end{
+            background-color: rgb(119, 207, 141); 
+            color: black;  
+            border-block-end: 5px solid red;
+            padding: 5px;
+            margin: 20px;
+         }
+         .css-block-start{
+            background-color: rgb(119, 207, 141); 
+            color: black;  
+            border-block-start: 5px solid red;
+            padding: 5px;
+            margin: 20px;
+         }
+
+         p.dotted {border-style: dotted;}
+        p.dashed {border-style: dashed;}
+        p.solid 
+        {
+            border: 2px solid red;
+            border-radius: 5px;
+        }
+        p.double {border-style: double;}
+        p.groove {border-style: groove;}
+        p.ridge {border-style: ridge;}
+        p.inset {border-style: inset;}
+        p.outset {border-style: outset;}
+        p.none {border-style: none;}
+        p.hidden {border-style: hidden;}
+        p.mix {border-style: dotted dashed solid double;}
+        
+    </style>
+    <title>css-color</title>
+</head>
+<body> 
+    <h2>1. Border-Box</h2>
+    <article class="css-box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae repellat suscipit quis quod officiis temporibus a dolores odit, omnis fugiat molestias nesciunt, vitae repellendus!</p> 
+    </article>  
+    <article class="css-box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae repellat suscipit quis quod officiis temporibus a dolores odit, omnis fugiat molestias nesciunt, vitae repellendus!</p> 
+    </article>
+    <h4 class="without-border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae repellat suscipit quis quod officiis temporibus a dolores odit, omnis fugiat molestias nesciunt, vitae repellendus!</h4> 
+    <hr>
+    <h2>2. Border-Block</h2>
+    <article class="css-block">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae repellat suscipit quis quod officiis temporibus a dolores odit, omnis fugiat molestias nesciunt, vitae repellendus!</p> 
+    </article> 
+    <hr>
+    <article class="css-block-end">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae repellat suscipit quis quod officiis temporibus a dolores odit, omnis fugiat molestias nesciunt, vitae repellendus!</p> 
+    </article>
+    <hr>
+    <article class="css-block-start">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae repellat suscipit quis quod officiis temporibus a dolores odit, omnis fugiat molestias nesciunt, vitae repellendus!</p> 
+    </article>
+    <hr>
+    <div>
+        <h2>2. The border-style Property</h2>
+        <p>This property specifies what kind of border to display:</p>
+    
+        <p class="dotted">A dotted border.</p>
+        <p class="dashed">A dashed border.</p>
+        <p class="solid">A solid Rounded border.</p>
+        <p class="double">A double border.</p>
+        <p class="groove">A groove border.</p>
+        <p class="ridge">A ridge border.</p>
+        <p class="inset">An inset border.</p>
+        <p class="outset">An outset border.</p>
+        <p class="none">No border.</p>
+        <p class="hidden">A hidden border.</p>
+        <p class="mix">A mixed border.</p>
+    </div>
+</body>
+</html>

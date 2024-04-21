@@ -127,3 +127,24 @@ index 5ab2f8a..fa74604 100644
 USER@DESKTOP-RD25K53 MINGW64 /d/Udemy-Courses/story-git (master)
 $ git checkout chapter2.txt
 Updated 1 path from the index
+
+
+            8. Push and Remote origin
+
+PS D:\Maanavan-Learn-Code> git commit -m "This is first Commit"
+[master (root-commit) 83b5f85] This is first Commit
+ 32 files changed, 33711 insertions(+)
+
+PS D:\Maanavan-Learn-Code> git remote add origin https://github.com/uthranivy/My-Coding.git
+
+PS D:\Maanavan-Learn-Code> git push origin master
+
+            9. Remove "remote origin" and "add new url"
+
+PS D:\Maanavan-Learn-Code> git remote -v  //Check which url is present
+origin  https://github.com/uthranivy/learn-code.git (fetch)
+origin  https://github.com/uthranivy/learn-code.git (push)
+
+PS D:\Maanavan-Learn-Code> git remote set-url origin https://github.com/uthranivy/My-Coding.git
+
+

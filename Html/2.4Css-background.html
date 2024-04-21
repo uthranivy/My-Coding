@@ -17,16 +17,68 @@
             text-align: center; 
             font-size: 3em;
          } 
+         h2{
+            text-align: center;
+         }
          h3{
             background-color: blueviolet;
             color: hsla(120, 100%, 50%, 0.50);
             text-align: center;
             font-size: 3em;
          }
+         .background-image{
+            background-image: url("https://picsum.photos/200/300"); 
+            width: 100%;
+            height: 400px; 
+         }
+         .repeat-x{
+            background-image: url("https://picsum.photos/200/300"); 
+            background-repeat: repeat-x;
+            width: 100%;
+            height: 400px; 
+         }
+         .repeat-y{
+            background-image: url("https://picsum.photos/200/300"); 
+            background-repeat: repeat-y;
+            width: 100%;
+            height: 400px; 
+         }
+         .No-repeat{ 
+            background-image: url("https://picsum.photos/200/300"); 
+            background-repeat: no-repeat;
+            background-position: right top; 
+            width: 100%;
+            height: 400px; 
+         }
+         .No-repeat-position-x{
+            background-image: url("https://picsum.photos/200/300"); 
+            background-repeat: no-repeat;
+            background-position-x: 50%; 
+            /* or background-position-x: center;  */
+            width: 100%;
+            height: 400px; 
+         }
+         .No-repeat-position-y{
+            background-image: url("https://picsum.photos/200/300"); 
+            background-repeat: no-repeat;
+            background-position-y: center;  
+            width: 100%;
+            height: 400px;
+         }
+         .No-repeat-size{
+            border: 2px solid black;
+            padding: 25px;
+            background-image: url("https://picsum.photos/200/300"); 
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: 400 500px;
+            block-size: 500px;
+         }
     </style>
     <title>css-color</title>
 </head>
 <body> 
+    <h2>1. BG Color</h2>
     <article class="css-color">
         <p>Paragraph1</p>
         <h1>Heading</h1>
@@ -35,5 +87,42 @@
         <p>Paragraph4</p>
         <p>Paragraph5</p> 
     </article> 
+    <hr>
+    <h2>2. BG Image</h2>
+    <article class="background-image">
+        
+    </article>
+    <hr>
+    <h2>3. BG REPEAT</h2>
+    <article class="background-repeat">
+        <section class="repeat-x"></section>
+        <hr>
+        <section class="repeat-y"></section>
+        <hr>
+        <h2>** Background Position And NO Repeat**</h2>
+        <section class="No-repeat"></section>
+        <hr>  
+        <section class="No-repeat-position-x"></section>
+        <hr>
+        <section class="No-repeat-position-y"></section>
+        <hr>
+        <h2>** Background Size **</h2>
+        <section class="No-repeat-size"></section>
+    </article>
+    <hr>
+    <h2>4. BG Attachment</h2>
+    <article class="background-attachment">
+        
+    </article>
+    <hr>
+    <h2>5. BG POSITION</h2>
+    <article class="background-position">
+        
+    </article>
+    <hr>
+    <h2>6. BACKGROUND Full</h2>
+    <article class="background">
+        
+    </article>
 </body>
 </html>

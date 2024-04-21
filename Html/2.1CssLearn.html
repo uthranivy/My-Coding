@@ -14,27 +14,56 @@
         input[type=email]{
             background-color: orange;
         }
-        p.dotted {border-style: dotted;}
-        p.dashed {border-style: dashed;}
-        p.solid 
-        {
-            border: 2px solid red;
-            border-radius: 5px;
-        }
-        p.double {border-style: double;}
-        p.groove {border-style: groove;}
-        p.ridge {border-style: ridge;}
-        p.inset {border-style: inset;}
-        p.outset {border-style: outset;}
-        p.none {border-style: none;}
-        p.hidden {border-style: hidden;}
-        p.mix {border-style: dotted dashed solid double;}
+        
 
         #margin-style-prop 
         {
             width: 300px;
             margin: auto;
             border: 1px solid red;
+        }
+
+        /* Text Decoration */
+        .overline {
+        text-decoration: overline;
+        padding: 5px;
+        }
+
+        .Line-through  {
+        text-decoration: line-through;
+        padding: 5px;
+        }
+
+        .Underline {
+        text-decoration: underline;
+        padding: 5px;
+        }
+
+        p.ex {
+        text-decoration: overline underline;
+        padding: 5px;
+        }
+        .ex-1{
+            text-decoration: underline red double 5px;
+        }
+        .text-transfrorm{
+            text-transform: uppercase; 
+            padding: 20px;
+        }
+
+        .indent{
+            text-indent: 40px;
+            word-spacing: -2px;
+        }
+        .spacing{
+            letter-spacing: 5px;
+        }
+        .line-hgt{
+            line-height: 0.8px;
+        }
+        .text-shad{
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
         }
     </style>
     <title>Combination</title>
@@ -69,28 +98,29 @@
             <label for="email"></label>
             <input type="email" name="email" id="email">
         </ul>
-    </div> 
-    <hr>
-    <div>
-        <h2>2. The border-style Property</h2>
-        <p>This property specifies what kind of border to display:</p>
-    
-        <p class="dotted">A dotted border.</p>
-        <p class="dashed">A dashed border.</p>
-        <p class="solid">A solid Rounded border.</p>
-        <p class="double">A double border.</p>
-        <p class="groove">A groove border.</p>
-        <p class="ridge">A ridge border.</p>
-        <p class="inset">An inset border.</p>
-        <p class="outset">An outset border.</p>
-        <p class="none">No border.</p>
-        <p class="hidden">A hidden border.</p>
-        <p class="mix">A mixed border.</p>
-    </div>
-    <hr>
+    </div> <hr>
     <h2>2. The margin-style Property "AUTO"</h2>
     <div id="margin-style-prop">
         This div will be horizontally centered because it has margin: auto;
     </div>
+    <h2>3. The Text Decoration</h2>
+    <p class="overline">Overline text decoration</p>
+    <p class="Line-through ">Line-through text decoration</p>
+    <p class="Underline">Underline text decoration</p>
+    <p class="ex">Overline and underline text decoration.</p>
+    <p class="ex-1"> text decoration.</p>
+    <p><strong>Note:</strong> It is not recommended to underline text that is not a link, as this often confuses
+        the reader.</p>
+    <hr>
+    <h2 class="text-transfrorm">4. Text Transform</h2> 
+    <hr>
+    <h2>5. Using text-indent and word spacing</h2>
+    <p class="indent">In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</p>
+    <h2>6. Letter Spacing</h2>
+    <p class="spacing">In my younger and more vulnerable years my father gave me some advice.</p>
+    <h2>7. Line Height</h2>
+    <p class="line-hgt">In my younger and more vulnerable years my father gave me some advice.</p>
+    <hr>
+    <h2 class="text-shad">8. Text Shadow</h2>
 </body>
 </html>
