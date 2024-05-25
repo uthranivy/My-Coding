@@ -67,3 +67,20 @@ background-repeat
 background-attachment
 background-position
 background (shorthand property)
+
+                10. Javascript
+
+typeof null; // "object" (not "null" for legacy reasons)
+typeof undefined; // "undefined"
+null === undefined; // false
+null == undefined; // true
+null === null; // true
+null == null; // true
+!null; // true
+Number.isNaN(1 + null); // false
+Number.isNaN(1 + undefined); // true
+
+            1.1 if condition
+
+Hello === "Hello"; // false
+Hello == "Hello"; // true
