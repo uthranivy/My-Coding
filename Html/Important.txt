@@ -85,7 +85,7 @@ Number.isNaN(1 + undefined); // true
 Hello === "Hello"; // false
 Hello == "Hello"; // true
 
-  2. JSON and API
+             11. JSON and API in JAVASCRIPT
 
   1. Async = We can move on to another task.
 
@@ -103,3 +103,23 @@ Hello == "Hello"; // true
   Step 3: open the request
 
   Step 4: send the request
+
+  1. FetchAPI - support by all modern browsers
+
+
+            12. Promises in JAVASCRIPT
+
+1. Promise has 3 states
+
+A JavaScript Promise object can be in one of three states:
+
+            1. Pending: The promise is still in the works. It is the initial state of a promise.
+            2. Fulfilled: The promise resolves successfully and returns a value.
+            3. Rejected: The promise fails with an error.
+
+            13. Axios
+
+1. Axios is useful for all promise, fetch are in built in library.
+
+
+

@@ -147,4 +147,18 @@ origin  https://github.com/uthranivy/learn-code.git (push)
 
 PS D:\Maanavan-Learn-Code> git remote set-url origin https://github.com/uthranivy/My-Coding.git
 
+            10. Clone New System and push the repository
 
+PS D:\Maanavan-Learn> git clone "https://github.com/uthranivy/My-Coding.git"
+Cloning into 'My-Coding'...
+
+PS D:\Maanavan-Learn\My-coding> git add .
+
+PS D:\Maanavan-Learn\My-coding> git config --global user.email "uthra.156@gmail.com"
+
+PS D:\Maanavan-Learn\My-coding> git config --global user.name "uthraganapathy"
+
+PS D:\Maanavan-Learn\My-coding> git commit -m "I added DOM, Array and Object example"
+[master 923a54b] I added DOM, Array and Object example
+
+PS D:\Maanavan-Learn\My-coding> git push origin master
