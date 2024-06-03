@@ -84,3 +84,22 @@ Number.isNaN(1 + undefined); // true
 
 Hello === "Hello"; // false
 Hello == "Hello"; // true
+
+  2. JSON and API
+
+  1. Async = We can move on to another task.
+
+  2. Sync = We have wait for it to finish before moving on javascipt another task.
+
+  3. Ajax = lets you load some new data to your web page,
+            without the need to reload the whole page.
+
+
+
+  Step 1: Create a XMLHttpRequest object
+
+  Step 2: write the callback function
+
+  Step 3: open the request
+
+  Step 4: send the request
