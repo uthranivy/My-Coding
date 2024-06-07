@@ -1,0 +1,21 @@
+Object Oriented Programming
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Encapsulation - Create variable, constructor, method in class
+2. Polymorphism - Method Overloading is called Polymorphism
+3. Inheritance - get properties one class to another
+4. Abstract
+
+Employee:  - Entity
+properties
+----------
+-> name
+-> age
+-> email
+=> salary
+
+funtionalilty or method
+-----------------------
+
+skill()
+roles()

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Timeout</title>
+    <script>
+        console.log("First Console Log");
+        setTimeout(function()  {
+            console.log("Second Console Log: TimeOut");
+            const mybody = document.querySelector("body");
+            mybody.style.backgroundColor = "blue";
+            mybody.style.color = "white";
+        }, 3000);
+        console.log("Third Console Log");  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

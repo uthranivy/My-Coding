@@ -1,0 +1,14 @@
+
+PS D:\Maanavan-Learn\My-Coding\NodeJSDemo> npm init
+
+PS D:\Maanavan-Learn\My-Coding\NodeJSDemo> npm install node-fetch --save
+
+                   2. Run Program
+
+PS D:\Maanavan-Learn\My-Coding\NodeJSDemo> node index.js
+
+    ****To load an ES module, set "type": "module"****
+
+PS D:\Maanavan-Learn\My-Coding\NodeJSDemo> npm install express
+
+PS D:\Maanavan-Learn\My-Coding\NodeJSDemo> npm install nodemon

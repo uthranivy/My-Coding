@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Timeout</title> 
+</head>
+<body>
+    <h1>Interval</h1>
+    <script>
+        var logger =setInterval(function(){
+            console.log("I am running");
+        }, 1000);
+        setTimeout(function()  { 
+            clearInterval(logger);
+        }, 5500);  
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "myfirstdemo",
+  "version": "1.0.0",
+  "description": "My Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uthra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
