@@ -8,10 +8,11 @@ class Company {
     getInfo(){
         console.log("Welcome Our Company");
     }
-    getInfo(location){
-        console.log("Welcome Our Company");
-    }
+    // getInfo(location){
+    //     console.log("Welcome Our Company");
+    // }
 }
+//Method Overloading is called Polymorphism
 
 
 
