@@ -1,0 +1,43 @@
+What is React?
+---------------------------------------------
+
+Javascript library for Building user interface
+
+View Layer
+
+React JS (FrontEnd) >Server Side > Database
+
+Babel and render is used for convert jsx to javascript
+
+<APP /> Component
+
+render(){} ---->  Method
+
+props and state
+event
+
+Function ---> 1. stateless
+              2. declare props directly
+
+Class ---> 1. State
+           2. Add this.props
+
+State--> data--> Object--> {}
+
+SetState is predefined object.
+
+OOPS--> Class based component
+
+1. Constructor
+2. this
+3. bind
+
+If use Arrow Function did not want to bind.
+() => content;
+
+
+Predefined Method 
+-----------------
+
+1.componentDidMount
+2.componentWillMount
