@@ -39,5 +39,17 @@ If use Arrow Function did not want to bind.
 Predefined Method 
 -----------------
 
-1.componentDidMount
+1.componentDidMount is called after rendering
 2.componentWillMount
+
+React Hooks
+-----------
+
+useState
+--------
+const state = (useState(initial value, function()))
+
+[] --> useState is assign as array
+
+Destructuring Assignment--> []
+
