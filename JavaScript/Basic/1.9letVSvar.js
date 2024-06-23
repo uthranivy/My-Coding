@@ -3,8 +3,9 @@ var a = 10;
 console.log(a);
 var a;
 
-// let not redeclare the value
+// let not redeclare the var with same name
 let b = 20;
+b=34;
 console.log(b);
 // let b = 10;    
 

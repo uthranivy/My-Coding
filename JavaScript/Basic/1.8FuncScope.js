@@ -9,7 +9,7 @@ function LogIn(){
 
 LogIn();
 
-        // var 
+        // Example 1 var 
 
 var x = 10;
 
@@ -23,12 +23,13 @@ function varFunc() {
  
     console.log(y);
 }
-varFunc();
-
+varFunc(); 
 // It prints 10
 console.log(x);
 
-        // Example 2
+// -------------------------------------------------------------
+
+        // Example 2 let
 
 var fullMoon = true;
 
@@ -85,7 +86,8 @@ var m = 100;
 
 function hoist() {
   // A condition that should not affect the outcome of the code
-  if (false) {
+  if (true) {
+    console.log("Before block var declaration: " + m);
     var m = 200;
   }
   console.log(m); // it can access function level declaration of the variable but let can be access global variable it could be access block level scope
