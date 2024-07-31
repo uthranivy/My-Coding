@@ -23,3 +23,16 @@ PS D:\Maanavan Learn Code\React\mern-crud> npm install react-router-dom
 PS D:\Maanavan Learn Code\React\mern-crud> npm install react-bootstrap bootstrap
 
 PS D:\Maanavan Learn Code\React\mern-crud> npm start
+
+
+                          Server Connect
+                          --------------
+
+PS D:\Maanavan-Learn-Code\My-Coding-master\React\my-project-app> npm i json-server
+
+            *** Create db.json file, then paste that code, and run below command
+
+PS D:\Maanavan-Learn-Code\My-Coding-master\React\my-project-app> npx json-server --watch db.json --port 3004
+
+PS D:\Maanavan-Learn-Code\My-Coding-master\React\my-project-app> npm install axios --save
+
