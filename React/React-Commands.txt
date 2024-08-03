@@ -4,6 +4,8 @@ PS D:\Maanavan Learn Code> cd React
 
 npm install -g npm
 
+PS D:\MaanavanLearnCode\My-Coding\React-project> npm install -g create-react-app
+
 PS D:\Maanavan Learn Code\React> npx create-react-app my-app
 
 PS D:\Maanavan Learn Code\React> cd mern-crud
@@ -23,6 +25,8 @@ PS D:\Maanavan Learn Code\React\mern-crud> npm install react-router-dom
 PS D:\Maanavan Learn Code\React\mern-crud> npm install react-bootstrap bootstrap
 
 PS D:\Maanavan Learn Code\React\mern-crud> npm start
+
+PS D:\MaanavanLearnCode\My-Coding\React\my-app-state> npm install react-scripts --save 
 
 
                           Server Connect
