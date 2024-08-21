@@ -40,3 +40,6 @@ PS D:\Maanavan-Learn-Code\My-Coding-master\React\my-project-app> npx json-server
 
 PS D:\Maanavan-Learn-Code\My-Coding-master\React\my-project-app> npm install axios --save
 
+
+PS D:\MaanavanLearnCode\My-Coding\React-project\weather-app> npm start
+
