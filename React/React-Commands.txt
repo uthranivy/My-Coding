@@ -40,6 +40,11 @@ PS D:\Maanavan-Learn-Code\My-Coding-master\React\my-project-app> npx json-server
 
 PS D:\Maanavan-Learn-Code\My-Coding-master\React\my-project-app> npm install axios --save
 
+                            *** Movie App ***
+                            
+PS D:\MaanavanLearnCode\Movie-List-app> npm i lodash
+
+PS D:\MaanavanLearnCode\Movie-List-app> npm i prop-types --save
 
 PS D:\MaanavanLearnCode\My-Coding\React-project\weather-app> npm start
 
