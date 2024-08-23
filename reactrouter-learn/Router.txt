@@ -1,0 +1,18 @@
+ROUTING and Navigation
+----------------------
+ 
+What and why ?
+
+Single Page Application
+
+Step-1 npm i react-router-dom@4.3.1 --save
+Step-2 Browser Router import --> Index.js
+Step-3 Router Path Configuration
+
+http://localhost:3000/
+
+http://localhost:3000/admin/
+
+http://localhost:3000/user
+
+
